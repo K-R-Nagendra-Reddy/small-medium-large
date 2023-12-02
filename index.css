@@ -1,0 +1,45 @@
+/* Write your code here. */
+.bg-container{
+    background-color: #ffffff;
+    background-size: cover;
+    height: 100vh;
+
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.heading{
+    color: #0f172a;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+.small-card{
+    background-color: #fbbf24;
+    height: 15vh;
+    width: 15vw;
+}
+.medium-card{
+    background-color: #38bdf8;
+    height: 25vh;
+    width: 35vw;
+}
+.large-card{
+    background-color: #ec4899;
+    height: 35vh;
+    width: 45vw;
+}
+.box{
+    color: #ffffff;
+    font-family: "Bree Serif";
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
